@@ -1,0 +1,1 @@
+This bug occurs when using the `useEffect` hook in React Native with a dependency array that includes a function.  The function might not be correctly compared for changes, leading to unexpected re-renders or infinite loops. This often happens if you use a function directly as a dependency rather than creating a reference variable.
