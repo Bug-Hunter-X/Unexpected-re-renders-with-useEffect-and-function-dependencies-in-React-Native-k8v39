@@ -1,0 +1,1 @@
+This repository demonstrates a common bug in React Native involving the `useEffect` hook and function dependencies.  The bug causes unexpected re-renders or an infinite loop due to improper comparison of function references. The solution shows how to correctly manage function dependencies using useCallback.
